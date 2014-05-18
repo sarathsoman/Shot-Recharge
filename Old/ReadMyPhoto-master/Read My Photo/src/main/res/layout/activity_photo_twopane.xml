@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="false"
+              android:divider="?android:attr/dividerHorizontal"
+              android:orientation="horizontal"
+              android:showDividers="middle"
+              tools:application="io.msol.readmyphoto.PhotoListActivity">
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+        <ImageButton
+                android:id="@+id/camera_button"
+                android:layout_width="match_parent"
+                android:src="@drawable/camera"
+                android:layout_height="64dp"/>
+
+        <fragment
+                android:id="@+id/photo_list"
+                android:name="io.msol.readmyphoto.PhotoListFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout="@android:layout/list_content"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/photo_detail_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+</LinearLayout>

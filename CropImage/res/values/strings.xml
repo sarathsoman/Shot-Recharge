@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shot Recharge :)</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Crop">Crop..!!!</string>
+    <string name="Take_From_Camera">Take From Camera</string>
+    <string name="Select_from_Gallery">Select from Gallery</string>
+</resources>

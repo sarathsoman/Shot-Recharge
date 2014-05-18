@@ -1,0 +1,42 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+<TextView
+android:id="@+id/textViewAddCard"
+android:layout_width="250dp"
+android:layout_height="50dp"
+android:text="@string/Crop"
+android:textSize="16sp"
+android:layout_gravity="center"
+android:gravity="center"
+android:typeface="sans"/>
+
+<Button
+android:id="@+id/btn_take_camera"
+android:layout_width="250dp"
+android:layout_height="50dp"
+android:text="@string/Take_From_Camera"
+android:layout_marginTop="5dp"
+android:layout_gravity="center"
+android:typeface="sans"/>
+
+<Button
+    android:id="@+id/btn_select_gallery"
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:text="@string/Select_from_Gallery"
+    android:typeface="sans" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="0.90"
+    android:src="@drawable/ic_launcher1" />
+
+</LinearLayout>

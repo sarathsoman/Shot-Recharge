@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shotrecharge" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/a_Balance"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/n_Balance"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/m_Balance"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btn_take_camera"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:text="@string/Take_From_Camera"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btn_select_gallery"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:text="@string/Select_from_Gallery"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="@string/Text_View"
+        android:layout_marginLeft="50dp" 
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="114dp"
+        android:layout_height="93dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
